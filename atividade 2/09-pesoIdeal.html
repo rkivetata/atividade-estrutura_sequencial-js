@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça um programa que receba como entrada a altura de uma pessoa e calcule o peso ideal usando a seguinte fórmula: (72.7*altura)-58</title>
+</head>
+<body>
+    
+    <script>
+        let altura = parseFloat(prompt(`Insira sua altura`));
+
+        var calculoAltura = 72.7 * altura;
+        console.log(calculoAltura);
+
+        var constanteInteira = 58;
+
+        var formula = calculoAltura - constanteInteira;
+       
+
+        alert(`Seu peso ideal é ${formula}`);
+    
+    </script>
+
+</body>
+</html>
